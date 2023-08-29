@@ -10,6 +10,7 @@ var methodOverride = require('method-override');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+const commentsRouter = require('./routes/comments');
 
 require('dotenv').config()
 
