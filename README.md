@@ -1,15 +1,15 @@
 # OHC-Mag
-This app is...
+This app is a skateboard blog/magazine designed to highlight cool and unique spots that you or other skaters have found. The ability to post locations and photos of the spots will make for an easy time finding these hidden gems!
 Use App:
 <img src=""/>
 ## Technologies Used:
-*
-*
-*
-*
+* Node.js
+* MongoDB
+* Express
+* Bootstrap
 *
 ### Getting Started
-[Try Secret Safe Here](url "alt text")
+[Open OHC Mag here](https://ohc-mag-5dfaad391b19.herokuapp.com/ "OHC Mag")
 1.
 2.<img src=""/>
 3.
