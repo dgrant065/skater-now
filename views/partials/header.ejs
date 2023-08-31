@@ -4,19 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel='stylesheet' href='/stylesheets/style.css' />
-  <title> Skate Vlog </title>
+  <link rel='stylesheet' href='node_modules/bootstrap/dist/css/bootstrap.css' />
+  <title> OHC Mag </title>
 </head>
 <body>
-  <nav>
-    <a href="/posts">Home</a>
-    <% if (user) { %>
-      <a href="/posts/new">New Post</a>
-      <a href="/logout">LOG OUT</a>
-      &nbsp;|&nbsp;
-    <% } else { %>
-      <a href="/auth/google" class="login">LOGIN</a>
-    <% } %>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a href="/posts">All Posts</a>
+      <% if (user) { %>
+        <a href="/posts/new">New Post</a>
+        <a href="/logout">LOG OUT</a>
+        &nbsp;|&nbsp;
+      <% } else { %>
+        <a href="/auth/google" class="login">LOGIN</a>
+      <% } %>
+
+    </div>
+    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
   </nav>
   <main>
     
